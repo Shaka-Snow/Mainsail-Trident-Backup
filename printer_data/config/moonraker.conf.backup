@@ -128,12 +128,3 @@ enable_file_preprocessor: True
 enable_toolchange_next_pos: True
 update_spoolman_location: True
 
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-primary_branch: v5
-managed_services: crowsnest
-system_dependencies: system-dependencies.json
-virtualenv: ~/crowsnest-env
-requirements: requirements.txt
